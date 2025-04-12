@@ -1,21 +1,5 @@
 # screensy
 
-| Authors                          | Date             |
-| -------------------------------- | ---------------- |
-| Stef Gijsberts, Marijn van Wezel | March 17th, 2022 |
-
-Screensy is a simple screen sharing solution. Nothing more, nothing less.
-
-It consists of two parts, the rendezvous part which runs on the server, and the
-website part which runs in the user's browser. The rendezvous server is only
-used for protocol negotiation and discovery of viewers. The video stream is
-directly sent from the browser of the broadcaster to the browser of each viewer.
-All traffic (between rendezvous and browser and between browsers) is encrypted
-by default.
-
-There are two ways to set up screensy. If you don't know which one to choose, we
-recommend using Docker.
-
 ## Server Setup (With Docker)
 
 1.  Follow this guide to install Docker on your machine:
